@@ -4,11 +4,23 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-
+    <div>
+      <nav>
+        <div className="logo">
+          
+        </div>
+        <ul>
+          <li href="">HOME</li>
+          <li href="">ABOUT</li>
+          <li href="">SHOP</li>
+          <li href="">CONTACT</li>
+        </ul>
+        <button>Login</button>
+      </nav>
+    </div>
       
       
   
@@ -17,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
